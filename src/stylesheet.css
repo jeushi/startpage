@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Roboto&display=swap');
+
+:root {
+    --primary-color:#d4be98;
+    --background-color: #32302f;
+    --shadow-color: #2e2d2c;
+    --text-color: #fff;
+
+    font-family: DM Mono;
+    background-image: url("/src/img/gruv_pixel_landscape.png");
+    
+}
+
+h3 {
+    color: var(--primary-color);
+}
+
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+a:hover{
+    color:gray;
+    text-decoration:underline;
+}
+img {
+    border-radius: 50%;
+    filter: drop-shadow(5px 10px 4px var(--background-color));
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    min-width: 80lh;
+    min-height: 30vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageboards {
+    background-color: var(--background-color);
+
+    margin: 25px;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    filter: drop-shadow(0px 15px 4px var(--shadow-color));
+    outline-style:solid;
+    outline-color: var(--primary-color);
+    outline-width: 2px;
+}
+
+.social {
+    background-color: var(--background-color);
+
+    margin: 25px;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    filter: drop-shadow(0px 15px 4px var(--shadow-color));
+    outline-style:solid;
+    outline-color: var(--primary-color);
+    outline-width: 2px;
+}
+.search {
+    background: transparent;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0vh;
+  }
+  
+  .search-bar {
+    background: var(--background-color);
+    border-radius: 5%;
+    filter: drop-shadow(0px 15px 4px var(--shadow-color));
+    outline-style:solid;
+    outline-color: var(--primary-color);
+    outline-width: 2px;
+  }
+  
+  .search-bar input {
+    background: var(--bg-color);
+    border: none;
+  
+    text-align: center;
+    font-size: 15px;
+  
+    width: 500px;
+    min-height: 50px;
+    padding: 5px;
+  
+    color: var(--fg-color);
+  }
+  
+  .search-bar input:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid var(--green);
+  
+    outline: none;
+  }
+
+  #search-form {
+    color: var(--primary-color);
+    font-family: DM Mono;
+  }
